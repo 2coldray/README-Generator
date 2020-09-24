@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/2coldray/README-Generator/issues"
   },
-  "homepage": "https://github.com/2coldray/README-Generator#readme"
+  "homepage": "https://github.com/2coldray/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
