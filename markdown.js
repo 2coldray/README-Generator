@@ -2,32 +2,41 @@
 //Include title, table of contents, installation, usage, license, contributing, tests, and questions
 function markdown(data) {
     return `
-    # ${data.title}
+    # Title
+    ${data.title}
 
     ## Table of Contents
     * [Description](#description)
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
-    * [Contributing](#contributing)
+    * [Contribution](#contribution)
     * [Tests](#tests)
     * [Questions](#questions)
 
-    ## ${data.description}
+    ## Description
+    ${data.description}
 
-    ## ${data.installation}
+    ## Installation
+    ${data.installation}
 
-    ## ${data.usage}
+    ## Usage
+    ${data.usage}
 
-    ## ${data.credits}
+    ## Credits
+    ${data.credits}
 
-    ## ${data.license}
+    ## License
+    ${badge}
 
-    ## ${data.contributing}
+    ## Contributions
+    ${data.contributing}
 
-    ## ${data.tests}
+    ## Tests
+    ${data.tests}
 
-    ## ${data.questions}
+    ## Questions
+    ${data.email} [github link](https://www.github.com/${data.github})
     `
 };
 
