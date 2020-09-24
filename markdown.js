@@ -1,5 +1,5 @@
-
 //Make function Markdown
+//Include title, table of contents, installation, usage, license, contributing, tests, and questions
 function markdown(data) {
     return `
     # ${data.title}
@@ -30,3 +30,8 @@ function markdown(data) {
     ## ${data.questions}
     `
 };
+
+//Export Module
+module.exports = {
+    markdown : markdown
+}
