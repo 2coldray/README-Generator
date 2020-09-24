@@ -45,6 +45,25 @@ inquirer.prompt([
         name: "badge"
     },
     {
-        type:
-    }
-]);
+        type: "input",
+        message: "Add guidelines for how other contributors can add to any packages you created.",
+        name: "contribution"
+    },
+    {
+        type: "input",
+        message: "Write tests for your app, and provide examples how to use them here.",
+        name: "tests"
+    },
+    {
+        type: "input",
+        message: "What's your email address?",
+        name: "email"
+    },
+    {
+        type: "input",
+        message: "What's your Github username?",
+        name: "github"
+    },
+]).then((response) => {
+
+});
