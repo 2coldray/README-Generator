@@ -1,9 +1,9 @@
 //Make function Markdown
 //Include title, table of contents, installation, usage, license, contributing, tests, and questions
-function markdown(data) {
+function markdown(title, installation, usage, credits, license, badge, contribution, tests, email, github) {
     return `
     # Title
-    ${data.title}
+    ${title}
 
     ## Table of Contents
     * [Description](#description)
@@ -15,32 +15,31 @@ function markdown(data) {
     * [Questions](#questions)
 
     ## Description
-    ${data.description}
+    ${description}
 
     ## Installation
-    ${data.installation}
+    ${installation}
 
     ## Usage
-    ${data.usage}
+    ${usage}
 
     ## Credits
-    ${data.credits}
+    ${credits}
 
     ## License
+    ${license}
     ${badge}
 
     ## Contributions
-    ${data.contribution}
+    ${contribution}
 
     ## Tests
-    ${data.tests}
+    ${tests}
 
     ## Questions
-    ${data.email} [github link](https://www.github.com/${data.github})
+    ${email} [github link](https://www.github.com/${github})
     `
 };
 
 //Export Module
-module.exports = {
-    markdown : markdown
-}
+module.exports = markdown;

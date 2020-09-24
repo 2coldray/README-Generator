@@ -65,7 +65,9 @@ inquirer.prompt([
         name: "github"
     },
 ]).then((data) => {
-    let answers = markdown(data)
+    const readmeString = markdown(
+        data.
+    )
     fs.writeFile("README.md", answers, (err) => {
         if (err) throw err;
         console.log("Markdown file was successfully created")
