@@ -4,6 +4,7 @@ function markdown(title, installation, usage, credits, license, badge, contribut
     return `
     # Title
     ${title}
+    ${badge}
 
     ## Table of Contents
     * [Description](#description)
@@ -28,7 +29,7 @@ function markdown(title, installation, usage, credits, license, badge, contribut
 
     ## License
     ${license}
-    ${badge}
+    
 
     ## Contributions
     ${contribution}
@@ -37,7 +38,8 @@ function markdown(title, installation, usage, credits, license, badge, contribut
     ${tests}
 
     ## Questions
-    ${email} [github link](https://www.github.com/${github})
+    My email is: ${email} 
+    My github is <a href="https://wwww.github.com/${github}"> [github link](https://www.github.com/${github}) 
     `
 };
 
