@@ -28,7 +28,7 @@ function markdown(data) {
 
     ## License
     ${badge}
-
+    
     ## Contributions
     ${data.contributing}
 
