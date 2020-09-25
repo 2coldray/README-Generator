@@ -1,10 +1,9 @@
 //Make function Markdown
 //Include title, table of contents, installation, usage, license, contributing, tests, and questions
-function markdown(title, installation, usage, credits, license, badge, contribution, tests, email, github) {
+function markdown(title, installation, usage, credits, badge, contribution, tests, email, github) {
     return `
     # Title
     ${title}
-    ${badge}
 
     ## Table of Contents
     * [Description](#description)
@@ -39,7 +38,7 @@ function markdown(title, installation, usage, credits, license, badge, contribut
 
     ## Questions
     My email is: ${email} 
-    My github is <a href="https://wwww.github.com/${github}"> [github link](https://www.github.com/${github}) 
+    My github can be found here: <a href="https://wwww.github.com/${github}">https://www.github.com/${github}</a>
     `
 };
 
