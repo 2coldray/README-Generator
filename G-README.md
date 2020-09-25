@@ -1,4 +1,4 @@
-# readme
+# Genreate README
 
 ## Table of Contents
 * [Description](#description)
@@ -10,10 +10,10 @@
 * [Questions](#questions)
     
 ## Description
-create readme
+generate readme
     
 ## Installation
-website, run node
+need to run in terminal
     
 ## Usage
 run node

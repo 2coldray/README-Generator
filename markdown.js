@@ -27,7 +27,6 @@ ${credits}
     
 ## License
 ${license}
-        
     
 ## Contributions
 ${contribution}
