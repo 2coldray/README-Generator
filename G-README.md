@@ -1,4 +1,4 @@
-# Generate Readme
+# Generate README
 
 ## Table of Contents
 * [Description](#description)
@@ -11,13 +11,13 @@
 * [Questions](#questions)
     
 ## Description
-this app makes a readme for the user
+This app makes a readme file.
     
 ## Installation
-run node index.js
+run index.js in terminal
     
 ## Usage
-run in command line if you need file made
+run index.js in terminal
     
 ## Credits
 none
@@ -32,6 +32,6 @@ none
 none
     
 ## Questions
-My email is: raybray@yahoo.com 
+My email is: raybray219@yahoo.com 
 
 My github can be found here: https://www.github.com/2coldray
