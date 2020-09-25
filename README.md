@@ -18,8 +18,10 @@ The README.md Generator is a command-line application that takes in input from a
 
 ## Usage
 This is how the command line should look after the user answers all the questions from the prompt. The G-README.md file will be created.
+![Screen Shot 2020-09-24 at 10 37 22 PM](https://user-images.githubusercontent.com/60899926/94220446-f2d88300-feb6-11ea-8698-9dcd5889b4d9.png)
 
 This is how the README should look after being generated.
+![Screen Shot 2020-09-24 at 10 38 20 PM](https://user-images.githubusercontent.com/60899926/94220479-097eda00-feb7-11ea-854b-ce568882e82f.png)
 
 ## License
 MIT License

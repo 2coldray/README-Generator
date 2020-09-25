@@ -1,30 +1,30 @@
-# Genreate README
+# Generate Readme
 
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Credits](#credits)
 * [License](#license)
 * [Contribution](#contribution)
 * [Tests](#tests)
 * [Questions](#questions)
     
 ## Description
-generate readme
+this app makes a readme for the user
     
 ## Installation
-need to run in terminal
+run node index.js
     
 ## Usage
-run node
+run in command line if you need file made
     
 ## Credits
 none
     
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-        
-    
+
 ## Contributions
 none
     
@@ -32,6 +32,6 @@ none
 none
     
 ## Questions
-My email is: raybray219@yahoo.com 
+My email is: raybray@yahoo.com 
 
 My github can be found here: https://www.github.com/2coldray
