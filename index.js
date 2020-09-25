@@ -51,16 +51,19 @@ inquirer
         },
         {
           name: "APACHE 2.0",
-          value: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+          value:
+            "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
         },
         {
           name: "ISC",
-          value: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+          value:
+            "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
         },
         {
           name: "Mozilla Public License 2.0",
-          value: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
-        }
+          value:
+            "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+        },
       ],
       name: "license",
     },
@@ -88,21 +91,21 @@ inquirer
     },
   ])
   .then((data) => {
-      // console.log(data)
+    // console.log(data)
     const readmeString = markdown(
-        data.title,
-        data.description,
-        data.installation,
-        data.usage,
-        data.credits,
-        data.license,
-        data.contribution,
-        data.tests,
-        data.email,
-        data.github,
-    )
+      data.title,
+      data.description,
+      data.installation,
+      data.usage,
+      data.credits,
+      data.license,
+      data.contribution,
+      data.tests,
+      data.email,
+      data.github
+    );
     fs.writeFile("G-README.md", readmeString, (err) => {
-        if (err) throw err;
-        console.log("Markdown file was successfully created")
-    })
+      if (err) throw err;
+      console.log("Markdown file was successfully created");
+    });
   });
