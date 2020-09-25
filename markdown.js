@@ -8,6 +8,7 @@ return `# ${title}
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Credits](#credits)
 * [License](#license)
 * [Contribution](#contribution)
 * [Tests](#tests)
@@ -27,7 +28,7 @@ ${credits}
     
 ## License
 ${license}
-    
+
 ## Contributions
 ${contribution}
     
