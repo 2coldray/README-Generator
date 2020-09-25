@@ -62,7 +62,7 @@ inquirer
           value: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
         }
       ],
-      name: "badge",
+      name: "license",
     },
     {
       type: "input",
@@ -88,12 +88,21 @@ inquirer
     },
   ])
   .then((data) => {
-      console.log(data)
-    // const readmeString = markdown(
-    //     data
-    // )
-    // fs.writeFile("README.md", answers, (err) => {
-    //     if (err) throw err;
-    //     console.log("Markdown file was successfully created")
-    // })
+      // console.log(data)
+    const readmeString = markdown(
+        data.title,
+        data.description,
+        data.installation,
+        data.usage,
+        data.credits,
+        data.license,
+        data.contribution,
+        data.tests,
+        data.email,
+        data.github,
+    )
+    fs.writeFile("G-README.md", readmeString, (err) => {
+        if (err) throw err;
+        console.log("Markdown file was successfully created")
+    })
   });

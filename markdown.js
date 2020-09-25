@@ -1,6 +1,6 @@
 //Make function Markdown
 //Include title, table of contents, installation, usage, license, contributing, tests, and questions
-function markdown(title, installation, usage, credits, badge, contribution, tests, email, github) {
+function markdown(title, description, installation, usage, credits, badge, contribution, tests, email, github) {
     return `
     # Title
     ${title}
